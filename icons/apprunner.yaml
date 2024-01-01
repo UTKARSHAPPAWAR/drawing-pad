@@ -1,0 +1,9 @@
+version: 1
+runtime: nodejs12
+build:
+  commands:
+    - npm install
+    - npm run build
+  source: .
+port: 8080
+startCommand: npm start
